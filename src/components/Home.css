@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: space-between;
   padding : 3rem;
+  width:100%;
 }
 
 .intro {
@@ -34,9 +35,9 @@
 }
 
 .profile-pic img {
-  width: 200px;
+  width: 300px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 30%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   animation: fadeIn 2s ease-in-out;
 }
