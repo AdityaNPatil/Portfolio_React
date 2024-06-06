@@ -15,10 +15,11 @@
   list-style: none;
   padding: 0;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
+  align-items : center;
   gap: 5rem;
-  width: 75%;
+  width: 65%;
   margin: auto;
 }
 
