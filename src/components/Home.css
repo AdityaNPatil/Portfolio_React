@@ -33,11 +33,17 @@
   animation: fadeIn 2s ease-in-out;
 }
 
+.profile-pic a{
+  font-size : 1.3rem;
+  color : blue;
+}
+
 .profile-pic{
   display : flex;
   flex-direction : column;
   justify-content : center;
   align-items: center;
+  gap : 8px;
   }
 
 .about {
@@ -53,7 +59,7 @@
   animation: fadeInDown 1s ease-in-out;
 }
 
-.about p  , .profile-pic a{
+.about p  {
   font-size: 1.2em;
   color: #333;
   animation: fadeInUp 1s ease-in-out;
