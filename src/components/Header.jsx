@@ -13,7 +13,7 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <h1>My Portfolio</h1>
+        <h1><Link to="/">My Portfolio</Link></h1>
       </div>
       <nav className={isOpen ? 'nav-open' : ''}>
         <ul>
