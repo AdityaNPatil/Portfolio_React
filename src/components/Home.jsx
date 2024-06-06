@@ -16,7 +16,7 @@ function Home() {
                 <img src={profilePic} alt="Aditya Patil" />
                 <a href="https://drive.google.com/drive/folders/1ndtWm6cJCRFKKts0VME0hPnlOPKk_MCP" target="_blank">
                     Check out My Profile 
-                <a/>
+                </a>
             </div>
 
             {/* ABOUT */}
