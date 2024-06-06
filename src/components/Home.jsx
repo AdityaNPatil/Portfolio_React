@@ -14,6 +14,9 @@ function Home() {
             </div>
             <div className="profile-pic">
                 <img src={profilePic} alt="Aditya Patil" />
+                <a href="https://drive.google.com/drive/folders/1ndtWm6cJCRFKKts0VME0hPnlOPKk_MCP" target="_blank">
+                    Check out My Profile 
+                <a/>
             </div>
 
             {/* ABOUT */}
