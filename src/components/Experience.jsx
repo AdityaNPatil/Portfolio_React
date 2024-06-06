@@ -19,6 +19,7 @@ function Experience() {
             {/* Manually entering data -- 📁 For proper data entry check Projects component */}
             <ExperienceCard experienceTitle="Full-Stack Dev Intern" company="B2World" duration="Nov-Dec 2023" points={b2Points} imgSrc={webIntern} key="1"/>
             <ExperienceCard experienceTitle="Prompt Engineer Intern" company="SoulAI/Deccan AI" duration="Oct-Dec 2023" points={promptPoints} imgSrc={promptIntern} key="2"/>
+            
             <h1>Certifications</h1>
             <ul className="certAchList">
                 <li>AWS Certified Cloud Practitioner</li>
@@ -27,6 +28,13 @@ function Experience() {
                 <li>Intro to Html and CSS</li>
                 <li>Entrepreneurship</li>
                 <li>AWS Cloud Foundations Badge</li>
+            </ul>
+            
+            <h1>Achievements</h1>
+            <ul className="certAchList">
+                <li>Programme Representative of IT</li>
+                <li>LOR from Skolar for Full Stack Web dev</li>
+                <li>Merit Scholarship at VIT</li>
             </ul>
         </div>
     );
