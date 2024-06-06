@@ -46,6 +46,10 @@ function Contact() {
           <a href="mailto:adityapatil2708@gmail.com">adityapatil2708@gmail.com</a>
         </div>
         <div className="contact-item">
+          <FontAwesomeIcon icon="fa-solid fa-phone" />
+          <a href="tel:8855974327">Call 8855974327</a>
+        </div>
+        <div className="contact-item">
           <FontAwesomeIcon icon={faLinkedin} className="contact-icon" />
           <a href="https://www.linkedin.com/in/aditya-p-986955237/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
