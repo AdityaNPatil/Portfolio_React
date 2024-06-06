@@ -8,6 +8,14 @@
   background: linear-gradient(135deg, #ececec, #f5f5f5);
 }
 
+.introContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding : 3rem;
+}
+
 .intro {
   margin-bottom: 2em;
 }
@@ -97,5 +105,14 @@
 
   to {
     opacity: 1;
+  }
+}
+
+
+@media (max-width: 768px){
+  .introContainer{
+    flex-direction : column;
+    justify-content: center;
+    gap : 2rem;
   }
 }
