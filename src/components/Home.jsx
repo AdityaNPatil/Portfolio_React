@@ -9,8 +9,8 @@ function Home() {
         <div className="home">
             {/* BASIC INTRO */}
             <div className="intro">
-                <h1>Welcome to My Portfolio</h1>
-                <p>Hi, I'm Aditya Patil. Explore my work and skills.</p>
+                <h1>Hi , I'm <b style={{color : "brown"}}>Aditya Patil<b></h1>
+                <p><h2>Web Developer , Designer , Gamer</h2> Please explore my profile</p>
             </div>
             <div className="profile-pic">
                 <img src={profilePic} alt="Aditya Patil" />
