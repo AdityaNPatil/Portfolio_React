@@ -46,7 +46,7 @@
   animation: fadeInDown 1s ease-in-out;
 }
 
-.about p {
+.about p  , .profile-pic a{
   font-size: 1.2em;
   color: #333;
   animation: fadeInUp 1s ease-in-out;
