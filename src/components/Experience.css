@@ -11,6 +11,36 @@
     animation: fadeInDown 1s ease-in-out;
 }
 
+.certAchList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.certAchList li {
+  background: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  flex: 1 1 calc(50% - 1em);
+}
+
+.certAchList li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .certAchList li {
+    flex: 1 1 100%;
+  }
+}
+
 /* in ExperienceCard  component */
 .experienceCard{
     width: 100%;
