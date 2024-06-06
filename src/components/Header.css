@@ -13,6 +13,9 @@ header {
     margin: 0 1rem;
     color : white;
 }
+.logi h1 a{
+    color : white;
+}
 
 nav {
     display: flex;
