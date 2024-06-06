@@ -8,15 +8,17 @@ function Home() {
     return (
         <div className="home">
             {/* BASIC INTRO */}
-            <div className="intro">
-                <h1>Hi , I'm <b style={{color : "brown"}}>Aditya Patil</b></h1>
-                <p><span style={{color : "brown"}}>Web Developer , Designer , Gamer</span> Please explore my profile</p>
-            </div>
-            <div className="profile-pic">
-                <img src={profilePic} alt="Aditya Patil" />
-                <a href="https://drive.google.com/drive/folders/1ndtWm6cJCRFKKts0VME0hPnlOPKk_MCP" target="_blank" rel="noopener noreferrer">
-                    Check out My Profile 
-                </a>
+            <div className="introContainer">
+                <div className="intro">
+                    <h1>Hi , I'm <b style={{color : "brown"}}>Aditya Patil</b></h1>
+                    <p><span style={{color : "brown"}}>Web Developer , Designer , Gamer</span> Please explore my profile</p>
+                </div>
+                <div className="profile-pic">
+                    <img src={profilePic} alt="Aditya Patil" />
+                    <a href="https://drive.google.com/drive/folders/1ndtWm6cJCRFKKts0VME0hPnlOPKk_MCP" target="_blank" rel="noopener noreferrer">
+                        Check out My Profile 
+                    </a>
+                </div>
             </div>
 
             {/* ABOUT */}
